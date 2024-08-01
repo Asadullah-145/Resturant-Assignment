@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt Paper</title>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+<body>  
+  
+
+<nav class="bg-black border-gray-200 dark:bg-gray-900">
+  <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
+      <img src="./logo-removebg-preview.png" class="h-24 w-24" alt="Flowbite Logo" />
+  <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get started</button>
+      <button data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+    <ul class="flex flex-col font-medium p-4 md:p-0 mt-4  rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+      <li>
+        <a href="#" class="block hover:bg-orange-500  px-3 md:p-0 text-white bg-blue-700 rounded  md:text-blue-700 md:dark:text-blue-500" aria-current="page">Home</a>
+      </li>
+      <li>
+        <a href="#" class="block !hover:bg-orange-500  px-3 md:p-0 text-white text-gray-900 rounde md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About Us</a>
+      </li>
+      <li>
+        <a href="#" class="block !hover:bg-orange-500 text-white  px-3 md:p-0 text-gray-900 rounded  md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Publication</a>
+      </li>
+      <li>
+        <a href="#" class="block !hover:bg-orange-500 text-white  px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">FeedBack</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+    
+
+
+
+
+
+
+<div id="gallery" class="relative w-full h-full bg-black" data-carousel="slide">
+  <!-- Carousel wrapper -->
+  <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+       <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./image 2/main1.webp" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+          <img src="./image 2/delevery.webp" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./image 2/delivry1.webp" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      <!-- Item 4 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./image 2/delavery4.webp" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+      <!-- Item 5 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="./image 2/delivry1.webp" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+      </div>
+  </div>
+  <!-- Slider controls -->
+  <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+          </svg>
+          <span class="sr-only">Previous</span>
+      </span>
+  </button>
+  <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+      <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+          </svg>
+          <span class="sr-only">Next</span>
+      </span>
+  </button>
+</div>    
+
+
+<div class="bg-black h-96 w-full" id="box"> 
+  <div>  
+    <div class="text-white text-center"> 
+      <h1 class="md:text-5xl p-3 md:p-5 "> <p class="text-3xl">Welcome to Salt'n Pepper</p>
+Restaurants! Our Brands</h1>
+<p class="md:text-2xl ">Please click our brands below for further information, reservations or to order online! 
+</p>
+    </div>
+
+    <div class="">  
+      <div class=" grid gap-9  md:flex md:mt-20 justify-around"> 
+        <div class="grid gap-3 md:gap-20"> 
+          <img src="./image 2/image-removebg-preview.png" alt=""> 
+          <button type="button" class="btn btn-outline-secondary">Get a franchise</button>
+        </div>  
+    <div class="grid gap-3 md:gap-20"> 
+      <img src="./image 2/image-removebg-preview (1).png" alt="">
+      <button type="button" class="btn btn-outline-secondary">Get a franchise</button>
+    </div>
+    <div class="grid gap-3 md:gap-20"> 
+      <img src="./image 2/image-removebg-preview (2).png" alt="">
+      <button type="button" class="btn btn-outline-secondary">Get a franchise</button>
+    </div>
+    
+  </div>
+</div>
+</div>
+</div >    
+
+
+
+<div class=" bg-black h-96 w-full" id="main">
+  <div> 
+<div class="text-center p-5 md:p-10"> 
+  <h1 class="text-white text-3xl md:text-4xl">Salt'n Pepper</h1>  
+  <h1 class="text-white text-2xl md:text-3xl">Restaurant Franchises</h1> 
+  <p class="font-thin text-white">Restaurant Franchises
+    Each of our franchises are individually
+     managed. For further details, kindly contact them directly.</p>
+     
+      
+</div> 
+<div>  
+  <div class=" grid flex-row md:flex text-center justify-around mt-12 md:mt-20">  
+    <div class=" text-white mt-14  gap-2 md:gap-8">
+      <small class="text-center">Islamabad</small><span></span> 
+      <h3 class="text-2xl md:text-3xl"> Salt'n Pepper Restaurant</h3> <span></span>
+      <p>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p> <span></span>
+      <a href=""> Phone:051-2604904-6</a>  <br><span></span><pre>        </pre>
+      <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-blue-900 text-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+        Get Direction
+        </span>
+        </button>
+    </div> 
+    <div> 
+      <img class="border-2 border-rose-600 " src="./image 2/31.webp" alt="">
+    </div>
+
+  </div> 
+   
+  <div>  
+    <div class=" grid flex-row md:flex text-center justify-around mt-12 md:mt-20">  
+      <div> 
+        <img class="border-2 border-rose-600 " src="./image 2/32.webp" alt="">
+      </div>
+      <div class="text-white mt-14 gap-2 md:gap-8">
+        <small class="text-center">Islamabad</small><span></span> 
+        <h3 class="text-2xl md:text-3xl"> Salt'n Pepper Restaurant</h3> <span></span>
+        <p>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p> <span></span>
+        <a href=""> Phone:051-2604904-6</a>  <br><span></span><pre>        </pre>
+        <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+          <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-blue-900 text-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+          Get Direction
+          </span>
+          </button>
+      </div> 
+  
+    </div> 
+    
+    
+    <div>  
+      <div class=" grid flex-row md:flex text-center justify-around mt-12 md:mt-20">  
+        <div class="text-white mt-14 gap-2 md:gap-8">
+          <small class="text-center">Islamabad</small><span></span> 
+          <h3 class="text-2xl md:text-3xl"> Salt'n Pepper Restaurant</h3> <span></span>
+          <p>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p> <span></span>
+          <a href=""> Phone:051-2604904-6</a>  <br><span></span><pre>        </pre>
+          <button class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+            <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-blue-900 text-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+            Get Direction
+            </span>
+            </button>
+        </div> 
+        <div> 
+          <img class="border-2 border-rose-600 " src="./image 2/33.webp" alt="">
+        </div>
+    
+      </div> 
+      
+</div>
+</div>
+</div> 
+
+
+<div class="bg-black h-96 w-full" id="two"> 
+  <div> 
+    <div class="justify-center text-center mt-8 text-white "> 
+      <h3 class="text-3xl md:text-5xl">Salt'n Pepper</h3>
+      <h2 class="text-2xl md:text-4xl"> Express Franchises</h2>
+    </div>   
+
+
+
+  </div > 
+  <div class="grid  flex-row md:flex justify-evenly bg-black">  
+    <div>
+      <img class="h-60 w-60 mt-32" src="./image 2/franchise1.webp" alt=""> 
+      <h4 class="text-white ml-7 font-thin mt-3">MOTORWAY BHERA</h4> <br>
+      <h2 class="text-white ml-7 text-1xl md:text-2xl mt-1"> Salt'n Pepper Express</h2> 
+      <h3 class="text-white ml-9 font-thin mt-2">Motorway Bhera (North M2) </h3> 
+      <a class="text-white ml-9 font-thin mt-1" href="#">Ph:051-2604904-6</a><br> 
+      <button type="button" class="text-blue-700 ml-9 mt-2 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500
+       dark:focus:ring-blue-800">Get Direction</button>
+
+    </div> 
+
+
+    <div>
+      <img class="h-60 w-60 mt-32" src="./image 2/franchise2.webp" alt=""> 
+      <h4 class="text-white ml-7 font-thin mt-3">MOTORWAY BHERA</h4> <br>
+      <h2 class="text-white ml-7 text-1xl md:text-2xl mt-1"> Salt'n Pepper Express</h2> 
+      <h3 class="text-white ml-9 font-thin mt-2">Motorway Bhera (North M2) </h3> 
+      <a class="text-white ml-9 font-thin mt-1" href="#">Ph:051-2604904-6</a><br> 
+      <button type="button" class="text-blue-700 ml-9 mt-2 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500
+       dark:focus:ring-blue-800">Get Direction</button>
+
+    </div> 
+    <div>
+      <img class="h-60 w-60 mt-32" src="./image 2/franchise3.webp" alt=""> 
+      <h4 class="text-white ml-7 font-thin mt-3">MOTORWAY BHERA</h4> <br>
+      <h2 class="text-white ml-7 text-1xl md:text-2xl mt-1"> Salt'n Pepper Express</h2> 
+      <h3 class="text-white ml-9 font-thin mt-2">Motorway Bhera (North M2) </h3> 
+      <a class="text-white ml-9 font-thin mt-1" href="#">Ph:051-2604904-6</a><br> 
+      <button type="button" class="text-blue-700 ml-9 mt-2 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500
+       dark:focus:ring-blue-800">Get Direction</button>
+
+    </div>
+
+
+    <div>
+      <img class="h-60 w-60 mt-32" src="./image 2/franchise4.webp" alt=""> 
+      <h4 class="text-white ml-7 font-thin mt-3">MOTORWAY BHERA</h4> <br>
+      <h2 class="text-white ml-7 text-1xl md:text-2xl mt-1"> Salt'n Pepper Express</h2> 
+      <h3 class="text-white ml-9 font-thin mt-2">Motorway Bhera (North M2) </h3> 
+      <a class="text-white ml-9 font-thin mt-1" href="#">Ph:051-2604904-6</a><br> 
+      <button type="button" class="text-blue-700 ml-9 mt-2 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500
+       dark:focus:ring-blue-800">Get Direction</button>
+
+    </div>
+
+
+
+
+</div>  
+<div class="bg-black" id="last"> 
+  <div> 
+    <img id="img" class=" md:mt-0" src="./image 2/franchise5.webp" alt=""> 
+    <h3 class="text-center text-white mt-4">MOTORWAY BHERA</h3> 
+    <h1 class="text-center text-white mt-2 text-2xl md:text-3xl">Salt'n Pepper Express</h1> 
+  <h3 class="text-center text-white mt-2 " >Motorway Bhera (North M2)</h3> 
+  <center> 
+  <button type="button" class="text-blue-700 ml- mt-2 text-center hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500
+       dark:focus:ring-blue-800">Get Direction</button>
+      </center>
+  </div>
+  
+  
+  <div  class="bg-black h-96 w-full -mt-96 mb-96 ">  
+    
+    <div>  
+    <div class="text-center py-4 mt-96 md:py-5 "> 
+      <h1 class="text-white text-3xl">Salt'n Pepper</h1> 
+      <h1 class="text-white text-3xl">Village Franchise</h1>
+    </div> 
+<div class="grid flex-wrap  md:flex justify-around ">
+  <div>
+    <img class="h-72 " src="./image 2/village-franchise1.webp" alt="">
+  </div> 
+  <div class="text-white bg-black ml-16 md:ml-0 gap-2 md:gap-8">
+    <small class="text-center ml-12 md:ml-0">Islamabad</small><span></span> 
+    <h3 class="text-2xl  md:text-3xl"> Salt'n Pepper Restaurant</h3> <span></span>
+    <p class="ml-2 md:ml-0">Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p> <span></span>
+    <a class="ml-7 md:ml-0" href=""> Phone:051-2604904-6</a>  <br><span></span><pre>        </pre>
+    <button class="relative ml-5 md:ml-0 inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-cyan-500 to-blue-500 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-cyan-200 dark:focus:ring-cyan-800">
+      <span class="relative px-5 py-2.5  transition-all ease-in duration-75 bg-blue-900 text-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+      Get Direction
+    </span>
+  </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+ 
+
+
+
+<div class="bg-black" id="aus"> 
+  <div class="py-7"><center> 
+    <h1 class="text-white font-serif font-bold text-2xl">Salt'n Pepper</h1> 
+    <h1 class="text-white font-sans font-bold text-2xl"> Express Franchises (Opening Soon)</h1> 
+  </center>
+  </div>
+ <div class="flex flex-col lg:flex-row gap-6 p-4  ">
+  <!-- Flex Item 1 -->
+  <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg w-full lg:w-1/3">
+    <img class="h-24 w-24 object-cover mb-4" src="./image 2/th-removebg-preview.png" alt="Library 1">
+    <span class="text-center text-sm font-bold mb-2">Opening Soon</span>
+    <h3 class="text-center text-lg font-bold mb-2">Salt'n Pepper</h3>
+    <p class="text-center font-bold text-gray-600">Express Al-Jalil Garden Sadhoke</p>
+  </div>
+  
+  <!-- Flex Item 2 -->
+  <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg w-full lg:w-1/3">
+    <img class="h-24 w-24 object-cover mb-4" src="./image 2/th-removebg-preview.png" alt="Library 2">
+    <span class="text-center text-sm font-bold mb-2">Opening Soon</span>
+    <h3 class="text-center text-lg font-bold mb-2">Salt'n Pepper</h3>
+    <p class="text-center font-bold text-gray-600">Express Al-Jalil Garden Sadhoke</p>
+  </div>
+  
+  <!-- Flex Item 3 -->
+  <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg w-full lg:w-1/3">
+    <img class="h-24 w-24 object-cover mb-4" src="./image 2/th-removebg-preview.png" alt="Library 3">
+    <span class="text-center text-sm font-bold mb-2">Opening Soon</span>
+    <h3 class="text-center text-lg font-bold mb-2">Salt'n Pepper</h3>
+    <p class="text-center font-bold text-gray-600">Express Al-Jalil Garden Sadhoke</p>
+  </div>
+</div> 
+
+<!--flex ttem 4-->
+<div class="bg-black grid gap-10 md:flex justify-evenly p-5"> 
+  <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg w-full lg:w-1/3">
+    <img class="h-24 w-24 object-cover mb-4" src="./image 2/th-removebg-preview.png" alt="Library 3">
+    <span class="text-center text-sm font-bold mb-2">Opening Soon</span>
+    <h3 class="text-center text-lg font-bold mb-2">Salt'n Pepper</h3>
+    <p class="text-center font-bold text-gray-600">Express Al-Jalil Garden Sadhoke</p>
+  </div> <br>
+<!--flex ttem 5-->
+  <div class="flex flex-col items-center bg-white p-6 rounded-lg shadow-lg w-full lg:w-1/3">
+    <img class="h-24 w-24 object-cover mb-4" src="./image 2/th-removebg-preview.png" alt="Library 3">
+    <span class="text-center text-sm font-bold mb-2">Opening Soon</span>
+    <h3 class="text-center text-lg font-bold mb-2">Salt'n Pepper</h3>
+    <p class="text-center font-bold text-gray-600">Express Al-Jalil Garden Sadhoke</p>
+  </div>
+</div>
+<!--foodheader--> 
+<div class="py-5 bg-black"><center> 
+  <h1 class="text-white text-5xl font-bold">Social Feed</h1>
+</center>
+</div> 
+
+
+
+<div class=" bg-black flex flex-wrap justify-evenly gap-4 p-4">
+  <!-- Flex Item 1 -->
+  <div class=" flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/5">
+    <img class="w-full h-auto object-cover rounded-lg shadow-lg" src="./image 2/food1.webp" alt="Image 1">
+  </div>
+  
+  <!-- Flex Item 2 -->
+  <div class=" flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/5">
+    <img class="w-full h-auto object-cover rounded-lg shadow-lg" src="image 2/food2.webp" alt="Image 2">
+  </div>
+  
+  <!-- Flex Item 3 -->
+  <div class=" flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/5">
+    <img class="w-full h-auto object-cover rounded-lg shadow-lg" src="./image 2/food3.webp" alt="Image 3">
+  </div>
+  
+  <!-- Flex Item 4 -->
+  <div class=" flex-shrink-0 w-full sm:w-1/2 md:w-1/3 lg:w-1/5">
+    <img class="w-full h-auto object-cover rounded-lg shadow-lg" src="./image 2/food4.webp" alt="Image 4">
+  </div>
+  
+</div>
+
+
+<!--footer-->
+<footer class="bg-gray-800 text-white py-8">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      
+      <!-- About Us -->
+      <div>
+        <img class="mb-4 h-40" src="./image 2/logo-removebg-preview-removebg-preview.png" alt="">
+        <p class="text-gray-400 text-2xl font-bold">
+          The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service,
+           extraordinary classic and contemporary cuisine. The restaurants have become the 
+           ultimate dinning destinations in Lahore. From family occasions to business dinner
+            and moments of the heart, this place is where unforgettable memories are made.
+
+        </p>
+      </div>
+      
+      <!-- Site Links -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">Site Links</h3>
+        <ul class="space-y-2 py-3">
+          <li><a href="#" class="text-gray-400 text-2xl hover:text-white">Home</a></li><br>
+          <li><a href="#" class="text-gray-400 text-2xl hover:text-white">About</a></li><br>
+          <li><a href="#" class="text-gray-400 text-2xl hover:text-white">publication</a></li><br>
+          <li><a href="#" class="text-gray-400 text-2xl hover:text-white">Get a Frenchise</a></li><br> 
+          <li><a href="#" class="text-gray-400 text-2xl  hover:text-white">FeedBack</a></li><br>
+        
+        </ul>
+      </div>
+      
+      <!-- Contact Us -->
+      <div class="gap-12">
+        <h3 class="text-xl font-bold mb-4">Contact Us</h3> 
+        <p class="text-gray-400 mb-2">+92 4545632145</p> <br>
+        <p class="text-gray-400 mb-2">+92 3278963224</p> <br>
+       
+        <p class="text-gray-400 mb-2">snpfood@brain.net.pk</p><br>
+        <p class="text-gray-400 mb-2">24-Usman Block, New GardenTown, Lahore, Pakistan</p><br>
+        <p class="text-gray-400">Email: contact@example.com</p><br>
+      </div>
+      
+      <!-- Follow Us -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+        <div class="flex space-x-4">
+          <a href="#" class="text-blue-400  hover:text-white">
+            <i id="kpk" class="fab fa-facebook-f "></i>
+            <span class="sr-only ">Facebook</span>
+          </a>
+          <a href="#" class="text-yellow-400 hover:text-white">
+            <i class="fab fa-twitter"></i>
+            <span class="sr-only">Twitter</span>
+          </a>
+          <a href="#" class="text-red-500 hover:text-white">
+            <i class="fab fa-instagram"></i>
+            <span class="sr-only">Instagram</span>
+          </a>
+          <a href="#" class="text-green-400 hover:text-white">
+            <i class="fab fa-linkedin-in"></i>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="mt-8 border-t border-purple-700 pt-4 text-center text-3xl text-purple-400">
+      <p>&copy;CopyRight by Asad Ali</p>
+    </div>
+  </div>
+</footer>
+
+</div> 
+</div>
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>  
+</body>
+</html>
